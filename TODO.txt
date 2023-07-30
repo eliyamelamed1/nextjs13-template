@@ -2,4 +2,4 @@
 * configure eslint
 * configure Husky + lint-staged + commit linter
 * configure tsconfig
-* configure css linter / sorter
+* configure Stylelint - css linter / sorter
