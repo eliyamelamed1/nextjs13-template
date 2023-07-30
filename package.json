@@ -23,11 +23,11 @@
     "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.1.6",
     "zod": "^3.21.4"
   },
   "devDependencies": {
     "@playwright/test": "^1.36.2",
-    "prettier": "3.0.0"
+    "prettier": "3.0.0",
+    "typescript": "5.1.6"
   }
 }
