@@ -5,9 +5,8 @@ import Image from 'next/image'
 import styles from './page.module.css'
 
 export default function Home() {
-  const [a, b] = useState()
-
   const foo = () => {
+    const [a, b] = useState(2)
     console.log(a, b)
   }
 
