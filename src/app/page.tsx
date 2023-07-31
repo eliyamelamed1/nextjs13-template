@@ -1,19 +1,6 @@
-'use client'
-
-import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
-import styles from './page.module.css'
 
 export default function Home() {
-  const foo = () => {
-    const [a, b] = useState(2)
-    console.log(a, b)
-  }
-
-  useEffect(() => {})
-
-  foo()
-
   return (
     <main className={styles.main}>
       <div className={styles.description}>

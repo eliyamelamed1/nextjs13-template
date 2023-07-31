@@ -1,5 +1,8 @@
 module.exports = {
-  plugins: ['@trivago/prettier-plugin-sort-imports'],
+  plugins: [
+    '@trivago/prettier-plugin-sort-imports',
+    'prettier-plugin-css-order',
+  ],
   importOrder: [
     'react',
     '^@core/(.*)$',
@@ -14,4 +17,6 @@ module.exports = {
   tabWidth: 2,
   useTabs: false,
   jsxSingleQuote: true,
+  cssDeclarationSorterOrder: 'smacss',
+  cssDeclarationSorterKeepOverrides: false,
 }
