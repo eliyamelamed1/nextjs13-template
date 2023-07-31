@@ -1,5 +1,4 @@
-* configure prettier
-* configure eslint (typescript + our rules)
+* configure eslint (our custom rules)
 * configure tsconfig
 * configure Husky + lint-staged + commit linter
-* configure Stylelint - css linter / sorter
+* configure Stylelint - camalCase
