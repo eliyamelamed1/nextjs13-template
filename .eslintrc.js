@@ -7,13 +7,10 @@ module.exports = {
     'plugin:import/warnings',
     'plugin:import/typescript',
     'next/core-web-vitals',
-    "next",
+    'next',
     'eslint:recommended',
     'airbnb',
-    'airbnb/hooks',
     'prettier', // Add "prettier" last. This will turn off eslint rules conflicting with prettier. This is not what will format our code.
-    'prettier/@typescript-eslint',
-    'prettier/react',
   ],
   plugins: ['@typescript-eslint', 'react', 'import', 'jsx-a11y'],
   rules: {

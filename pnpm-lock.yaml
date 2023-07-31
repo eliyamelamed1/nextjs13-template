@@ -52,6 +52,9 @@ devDependencies:
   eslint-config-next:
     specifier: ^13.4.12
     version: 13.4.12(eslint@8.46.0)(typescript@5.1.6)
+  eslint-config-react-hooks:
+    specifier: ^1.0.0
+    version: 1.0.0
   prettier:
     specifier: 3.0.0
     version: 3.0.0
@@ -1227,6 +1230,10 @@ packages:
     transitivePeerDependencies:
       - eslint-import-resolver-webpack
       - supports-color
+    dev: true
+
+  /eslint-config-react-hooks@1.0.0:
+    resolution: {integrity: sha512-M4hotJLA7bZUxq7alpmcNNdJnVAgLjZAI8qT/Wj6/9gEmJgjE1xmsy2+fsuxCLkQ6PKczpt6i1ihM4YYQ78pPQ==}
     dev: true
 
   /eslint-import-resolver-node@0.3.7:
