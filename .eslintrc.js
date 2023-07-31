@@ -1,24 +1,13 @@
 module.exports = {
   extends: [
-    'plugin:@typescript-eslint/recommended',
-    'plugin:react/recommended',
-    'plugin:import/errors',
-    'plugin:jsx-a11y/recommended',
-    'plugin:import/warnings',
-    'plugin:import/typescript',
     'next/core-web-vitals',
     'next',
     'eslint:recommended',
     'airbnb',
+    'airbnb-typescript',
     'prettier', // Add "prettier" last. This will turn off eslint rules conflicting with prettier. This is not what will format our code.
   ],
-  plugins: ['@typescript-eslint', 'react', 'import', 'jsx-a11y'],
-  rules: {
-    'prefer-const': 'error',
-    'react/jsx-filename-extension': [1, { extensions: ['.ts', '.tsx'] }],
-    '@typescript-eslint/no-unused-vars': 'error',
-    '@typescript-eslint/no-explicit-any': 'warn',
-  },
+  plugins: ['react', 'import', 'jsx-a11y'],
   settings: {
     react: {
       version: 'detect',

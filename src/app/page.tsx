@@ -1,11 +1,12 @@
 'use client'
 
 import Image from 'next/image'
-import styles from './page.module.css'
 import React, { useEffect, useState } from 'react'
+import styles from './page.module.css'
 
-interface a {}
+interface A {}
 
+const a: A = {}
 export default function Home() {
   const foo = () => {
     let [a, b] = useState<>()
