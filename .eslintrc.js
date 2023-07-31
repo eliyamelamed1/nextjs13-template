@@ -7,6 +7,9 @@ module.exports = {
     'airbnb-typescript',
     'prettier', // Add "prettier" last. This will turn off eslint rules conflicting with prettier. This is not what will format our code.
   ],
+  rules: {
+    'react/react-in-jsx-scope': 0,
+  },
   plugins: ['react', 'import', 'jsx-a11y'],
   settings: {
     react: {
