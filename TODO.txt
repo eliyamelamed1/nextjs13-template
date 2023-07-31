@@ -1,5 +1,5 @@
 * configure prettier
-* configure eslint
-* configure Husky + lint-staged + commit linter
+* configure eslint (typescript + our rules)
 * configure tsconfig
+* configure Husky + lint-staged + commit linter
 * configure Stylelint - css linter / sorter
