@@ -4,5 +4,5 @@
   "*.js": ["prettier --write", "eslint"],
   "*.html": ["eslint", "prettier --write"],
   "*.json": ["prettier --write"],
-  "*.scss": "prettier --write"
+  "*.scss": ["stylelint", "prettier --write"]
 }
