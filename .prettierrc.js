@@ -17,5 +17,6 @@ module.exports = {
   tabWidth: 2,
   useTabs: false,
   jsxSingleQuote: true,
+  cssDeclarationSorterOrder: 'smacss',
   cssDeclarationSorterKeepOverrides: false,
 }
