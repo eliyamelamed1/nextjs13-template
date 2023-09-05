@@ -28,6 +28,7 @@
     "save-dev": "0.0.1-security",
     "stylelint": "^15.10.2",
     "stylelint-config-standard-scss": "^10.0.0",
+    "ts-node": "^10.9.1",
     "zod": "^3.21.4"
   },
   "devDependencies": {
