@@ -1,6 +1,7 @@
+import { Button } from '@mui/material'
 import type { Metadata } from 'next'
-import './globals.css'
 import { Inter } from 'next/font/google'
+import ThemeRegistry from '../components/ThemeRegistry'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,11 +15,16 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const a = 45
-
   return (
     <html lang='en'>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <main>
+          <ThemeRegistry options={{ key: 'mui' }}>
+            {children}
+            <Button>Break</Button>
+          </ThemeRegistry>
+        </main>
+      </body>
     </html>
   )
 }

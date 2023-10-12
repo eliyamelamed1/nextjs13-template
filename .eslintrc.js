@@ -15,6 +15,7 @@ module.exports = {
       ],
       rules: {
         'react/react-in-jsx-scope': 0,
+        'react/jsx-props-no-spreading': 0,
       },
       plugins: ['@typescript-eslint', 'react', 'import', 'jsx-a11y'],
       settings: {
