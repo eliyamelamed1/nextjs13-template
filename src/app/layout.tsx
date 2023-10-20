@@ -1,7 +1,7 @@
+import ThemeRegistry from '@/components/ThemeRegistry'
 import { Button } from '@mui/material'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import ThemeRegistry from '../components/ThemeRegistry'
 
 const inter = Inter({ subsets: ['latin'] })
 

@@ -19,4 +19,5 @@ module.exports = {
   jsxSingleQuote: true,
   cssDeclarationSorterOrder: 'smacss',
   cssDeclarationSorterKeepOverrides: false,
+  endOfLine: 'auto',
 }
