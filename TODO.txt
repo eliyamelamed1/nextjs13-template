@@ -1,3 +1,5 @@
 * configure eslint (our custom rules)
 * configure tsconfig
 * configure Husky + lint-staged + commit linter
+
+
